@@ -1,0 +1,41 @@
+#Tic-Tac-Toe{
+  display: flex;
+width: 600px;
+height: 600px;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+}
+
+#Tic-Tac-Toe div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+#Tic-Tac-Toe-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+svg{
+ width: 140px;
+ height: 140px;
+}
+
+path{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+#clear{
+  padding: 30px 40px;
+  margin-top: 15px;
+}
